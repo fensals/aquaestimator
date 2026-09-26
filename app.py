@@ -17,7 +17,6 @@ FALLBACK_LOGO_SVG = """
 </svg>
 """
 
-
 def render_header():
     col_logo, col_title = st.columns([1, 8])
     with col_logo:
